@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Mulai Scan"
+        android:id="@+id/bt_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/bt_scan"
+        android:id="@+id/tv_scanresult_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Scan : " />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_below="@id/tv_scanresult_title"
+        android:id="@+id/tv_scanresult"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+</RelativeLayout>
+
